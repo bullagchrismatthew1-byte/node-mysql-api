@@ -1,19 +1,19 @@
 {
   "database": {
-    "host": "localhost",
+    "host": "FILESS_IO_HOST",
     "port": 3306,
-    "user": "root",
-    "password": "",
-    "database": "node_mysql_api"
+    "user": "FILESS_IO_USER",
+    "password": "FILESS_IO_PASSWORD",
+    "database": "FILESS_IO_DATABASE"
   },
   "secret": "SUPER_SECRET_KEY_REPLACE_ME_IN_PRODUCTION",
-  "emailFrom": "laney.mraz@ethereal.email",
+  "emailFrom": "noreply@yourdomain.com",
   "smtpOptions": {
-    "host": "smtp.ethereal.email",
-    "port": 587,
+    "host": "sandbox.smtp.mailtrap.io",
+    "port": 2525,
     "auth": {
-      "user": "laney.mraz@ethereal.email",
-      "pass": "n6rSgYMvpe3SrkpEN2"
+      "user": "MAILTRAP_USER",
+      "pass": "MAILTRAP_PASSWORD"
     }
   }
 }
