@@ -1,0 +1,8 @@
+{
+  "name": "node-mysql-api-root",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd node-mysql-api && npm install && npm run build",
+    "start": "cd node-mysql-api && npm start"
+  }
+}
